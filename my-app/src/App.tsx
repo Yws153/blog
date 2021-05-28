@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 import Hello from './Hello'
+import HomeOther from './HomeOtherIndex'
+// import HomeOther from './HomeOther'
+
+console.log('homeOther', HomeOther);
+
 
 function App() {
   return (
@@ -20,6 +25,7 @@ function App() {
           Learn React
         </a>
         <Hello name={'12232'} enthusiasmLevel={10} />
+        <HomeOther />
       </header>
     </div>
   );
